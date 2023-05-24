@@ -1,0 +1,15 @@
+D:\Course backups\Dotnet\Charulatha\CSBasics\bin\Debug\net6.0\CSBasics.exe
+D:\Course backups\Dotnet\Charulatha\CSBasics\bin\Debug\net6.0\CSBasics.deps.json
+D:\Course backups\Dotnet\Charulatha\CSBasics\bin\Debug\net6.0\CSBasics.runtimeconfig.json
+D:\Course backups\Dotnet\Charulatha\CSBasics\bin\Debug\net6.0\CSBasics.dll
+D:\Course backups\Dotnet\Charulatha\CSBasics\bin\Debug\net6.0\CSBasics.pdb
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.csproj.AssemblyReference.cache
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.AssemblyInfoInputs.cache
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.AssemblyInfo.cs
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.csproj.CoreCompileInputs.cache
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.dll
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\refint\CSBasics.dll
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.pdb
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\CSBasics.genruntimeconfig.cache
+D:\Course backups\Dotnet\Charulatha\CSBasics\obj\Debug\net6.0\ref\CSBasics.dll
