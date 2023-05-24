@@ -1,19 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Welcome to Zealous Tech Corp!!!!!!!!!!");
+﻿using MyInputs;
 
-using zealous;
-using techCorp;
+MindBlow mindBlow=new MindBlow();// non literal object
+Console.WriteLine(mindBlow.myOrg);
 
-Tech tech=new Tech();
-tech.haiThere();
+Stat stat=new Stat();
+Console.WriteLine(stat.myOrg);
+stat.switchOrg();
+Console.WriteLine(stat.myOrg);
+stat.quitJob();
+Console.WriteLine(stat.myOrg);
+stat.myOrg="IBM Corporation";
+Console.WriteLine(stat.myOrg);
 
-Fiber fiber=new Fiber();
-fiber.airtel();
-
-Optical optical=new Optical();
-optical.jio();
-
-Domain domain=new Domain();
-domain.banking();
-domain.network();
-Domain.dataStructures();
+mindBlow.groot();

@@ -1,10 +1,31 @@
 // Demonstration on varibale and scopes
 namespace MyInputs{
     class Stat{
-        String myOrg="Zealous Tech Corp";// class level member
+        // literal object
+        public String? myOrg ="Zealous Tech Corp";// class level member
+
+        public void switchOrg(){
+            myOrg="TietoEvry";
+        }
+
+        public void quitJob(){
+            myOrg=null;
+        }
+
     }
 
+    // demosntration of local members
     class MindBlow{
-        String myOrg="Zealous academy of career training";// class level member
+        public String myOrg="Zealous academy of career training";// class level member
+
+        public void groot(){
+            Double mySalary=14.5;// local member to the groot method
+            Console.WriteLine("My salary is "+mySalary);
+        }
+
+        public void aprisal(){
+            
+        }
+
     }
 }
