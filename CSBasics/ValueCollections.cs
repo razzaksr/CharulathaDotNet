@@ -16,7 +16,7 @@ namespace MyInputs{
 
     // demosntration of local members
     class MindBlow{
-        public String myOrg="Zealous academy of career training";// class level member
+        public String? myOrg;// class level member
 
         public void groot(){
             Double mySalary=14.5;// local member to the groot method
