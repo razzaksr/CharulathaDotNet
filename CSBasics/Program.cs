@@ -1,4 +1,7 @@
-﻿using MyInputs;
+﻿using Operations;
 
-UserDefinedValues user=new UserDefinedValues();
-user.drax();
+Operators operators=new Operators();
+//operators.arithmetic();
+//operators.unary();
+//operators.expression();
+Operators.shortHand();
