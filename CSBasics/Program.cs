@@ -1,10 +1,7 @@
-﻿using Operations;
+﻿using Decision;
 
-Operators operators=new Operators();
-//operators.arithmetic();
-//operators.unary();
-//operators.expression();
-//Operators.shortHand();
-//Operators.bitwise();
-//Operators.relational();
-Operators.logicals();
+//Controls.DemoIf();
+//Controls.DemoIfElse();
+//Controls.DemoNested();
+//Controls.DemoElseIfLadder();
+Controls.DemoSwitch();
