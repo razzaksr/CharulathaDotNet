@@ -1,7 +1,7 @@
-﻿using Decision;
+﻿using Loop;
 
-//Controls.DemoIf();
-//Controls.DemoIfElse();
-//Controls.DemoNested();
-//Controls.DemoElseIfLadder();
-Controls.DemoSwitch();
+//LoopState.DemoWhile();
+//LoopState.DemoDo();
+//LoopState.DemoFor();
+
+LoopState.CreditCard();
