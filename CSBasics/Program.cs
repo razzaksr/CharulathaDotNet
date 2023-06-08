@@ -1,7 +1,5 @@
 ﻿using Loop;
 
-//LoopState.DemoWhile();
-//LoopState.DemoDo();
-//LoopState.DemoFor();
-
-LoopState.CreditCard();
+//LoopState.RationShop();
+//LoopState.TrainBooking();
+LoopState.FlashSale();

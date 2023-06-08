@@ -1,5 +1,42 @@
 namespace Loop{
     class LoopState{
+
+        // Non linear iteration with multiple loop condition
+        public static void FlashSale(){
+            double timer=12.00;int invoice=0;
+            for(int stock=40, required=0;stock>0&&timer<=12.60;timer+=0.01){
+                Console.WriteLine("Enter the number of mobiles required ");
+                required=Convert.ToInt32(Console.ReadLine());
+                if(required<=stock){
+                    stock-=required;
+                    Console.WriteLine("Expected amount of "+required+" mobiles order has placed");
+                    invoice++;
+                }
+                else{
+                    Console.WriteLine("Insufficient stock "+stock);
+                }
+            }
+            Console.WriteLine(invoice+" bills have generated");
+        }
+
+        // linear iteration with multiple conditions
+        public static void TrainBooking(){
+            String gender="";
+            for(int seats=10, age=0;seats>0;){
+                Console.WriteLine("Enter the gender ");
+                gender=Console.ReadLine();
+                Console.WriteLine("Enter the age ");
+                age=Convert.ToInt32(Console.ReadLine());
+                if(age>=50&&gender=="Female"||age>=55&&gender=="Male"){
+                    seats--;
+                    Console.WriteLine("You will get 50% of fare concession since gender is "+gender+" and Age is "+age);
+                }
+                else{
+                    Console.WriteLine("You are not eligible to get 50% of fare concession");
+                }
+            }
+        }
+
         //linear condition based
         public static void CreditCard(){
             int cibil=0, target=10;
@@ -15,9 +52,28 @@ namespace Loop{
                 }
             }
         }
+        // non linear and condition based
         public static void RationShop(){
-            // non linear
-
+            int familyCount=0, bills=0;
+            for(double sugarStock=100, currentKg=0;sugarStock>0;){
+                Console.WriteLine("How may family members ");
+                familyCount=Convert.ToInt32(Console.ReadLine());
+                if(familyCount>=2){
+                    currentKg=(familyCount*0.5);
+                    if(currentKg<=sugarStock){
+                        sugarStock-=currentKg;
+                        Console.WriteLine("You will get "+currentKg+"KG amount of sugar");
+                        bills++;
+                    }
+                    else{
+                        Console.WriteLine(sugarStock+"KG is available");
+                    }
+                }
+                else{
+                    Console.WriteLine("You are not eligible to get sugar");
+                }
+            }
+            Console.WriteLine(bills+" billed for the 100KG of SUGAR");
         }
         public static void DemoWhile(){
             int number=51;//init
