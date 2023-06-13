@@ -1,5 +1,5 @@
 ﻿using Loop;
 
-//LoopState.RationShop();
-//LoopState.TrainBooking();
-LoopState.FlashSale();
+//LoopState.DemoNested();
+//LoopState.DemoRealNested();
+LoopState.DemoPerfectSquare();

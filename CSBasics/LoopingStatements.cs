@@ -1,6 +1,67 @@
 namespace Loop{
     class LoopState{
 
+        // loop sequential process
+        /*
+        loop1: init,cond,iter
+            loop1 body
+            
+            loop2: init, cond, iter
+                loop2 body
+            
+            loop1 body
+        */
+
+        public static void DemoPerfectSquare(){
+            int size=0, even=2;
+            Console.WriteLine("Enter the size of perfect square ");
+            size=Convert.ToInt32(Console.ReadLine());
+            for(int row=1;row<=size;row++){
+                for(int column=1;column<=size;column++,even+=2){
+                    Console.Write(even+" ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void DemoRealNested(){
+            int fare=0, seats=50, required=0, bus=1, time=0, totalCollection=0;
+            while(bus<=3){
+                time=1;
+                seats=50;
+                while(seats>0&&time<=20){
+                    Console.WriteLine("Enter the number tickets required for "+bus+"th bus ");
+                    required=Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter the amount ");
+                    fare=Convert.ToInt32(Console.ReadLine());
+                    if(fare>=(required*250)){
+                        seats-=required;
+                        Console.WriteLine(required+" Seat(s) are booked");
+                        if(fare>(required*250)){
+                            Console.WriteLine("Get remianing change "+(fare-(required*250)));
+                        }
+                    }
+                    else{
+                        Console.WriteLine(required+" Seat(s) are not booked");
+                    }
+                    time++;
+                }
+                Console.WriteLine("Bus "+bus+" booked "+(50-seats)+" and collected amount is "+((50-seats)*250));
+                totalCollection+=((50-seats)*250);
+                bus++;
+            }
+            Console.WriteLine("Total collection of the day "+totalCollection);
+        }
+
+        public static void DemoNested(){
+            for(int table=1;table<=10;table++){
+                for(int number=1;number<=10;number++){
+                    Console.WriteLine(number+" X "+table+" = "+(table*number));
+                }
+            }
+        }
+
+
         // Non linear iteration with multiple loop condition
         public static void FlashSale(){
             double timer=12.00;int invoice=0;
