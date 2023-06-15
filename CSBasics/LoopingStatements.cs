@@ -12,6 +12,42 @@ namespace Loop{
             loop1 body
         */
 
+        public static void Floyds(){
+            // Left Upper floyd
+            // int size=0; char alphabet='A';
+            // Console.WriteLine("Enter the size of perfect square ");
+            // size=Convert.ToInt32(Console.ReadLine());
+            // for(int row=1;row<=size;row++){
+            //     for(int column=1;column<=row;column++,alphabet++){
+            //         Console.Write(alphabet+" ");
+            //     }
+            //     Console.WriteLine();
+            // }
+            // right upper floyd
+            // int size=0, number1=0,number2=1, sum=0;
+            // Console.WriteLine("Enter the size of perfect square ");
+            // size=Convert.ToInt32(Console.ReadLine());
+            // for(int row=1;row<=size;row++){
+            //     for(int space=size-1;space>=row;space--){
+            //         Console.Write(" ");
+            //     }
+            //     for(int content=1;content<=row;content++){
+            //         if(content==1&&row==1){
+            //             Console.Write(number1);
+            //         }
+            //         else if(content==1&&row==2){
+            //             Console.Write(number2);
+            //         }
+            //         else{
+            //             sum=number1+number2;
+            //             number1=number2;number2=sum;
+            //             Console.Write(sum);
+            //         }
+            //     }
+            //     Console.WriteLine();
+            // }
+        }
+
         public static void DemoPerfectSquare(){
             int size=0, even=2;
             Console.WriteLine("Enter the size of perfect square ");
