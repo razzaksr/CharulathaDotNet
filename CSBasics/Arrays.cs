@@ -1,7 +1,93 @@
 namespace ArrayPack{
     class Sequence{
 
+        public void marshmallow(){
+            int[] myExperience={9,1,4,12,8,4,0,1,2};
+            //recruit(myExperience);
+            perform(myExperience);
+            recruit(myExperience);
+        }
+
+        public void perform(int[] arr){
+            for(int index=0;index<arr.Length;index++){
+                if(arr[index]<=5)
+                    arr[index]+=1;
+            }
+        }
+
+        public void recruit(int[] wind){
+            for(int index=0;index<wind.Length;index++){
+                if(wind[index]>=5)
+                    Console.WriteLine("You are recruited because of the experience "+wind[index]);
+            }
+        }
+
+        public int detectPivot(int start,int end){
+            String transfer="";
+            String pivotData = myTechnologies[end];
+            int initial=start-1;
+
+            for(int current=start;current<end;current++){
+                if(myTechnologies[current].CompareTo(pivotData)<0){
+                    initial++;
+                    transfer=myTechnologies[initial];
+                    myTechnologies[initial]=myTechnologies[current];
+                    myTechnologies[current]=transfer;
+                }
+            }
+
+            transfer=myTechnologies[initial+1];
+            myTechnologies[initial+1]=myTechnologies[end];
+            myTechnologies[end]=transfer;
+
+            return initial+1;
+        }
+
+        // O(nlogn)
+        public void demoQuick(int start,int end){
+            if(start<end){
+                int pivotalPoint=detectPivot(start,end);
+                demoQuick(start,pivotalPoint-1);
+                demoQuick(pivotalPoint+1,end);
+            }
+        }
+
+        public void demoBubble(){
+            String persist="";
+            for(int bubble1=0;bubble1<myTechnologies.Length-1;bubble1++){
+                for(int bubble2=0;bubble2<myTechnologies.Length-bubble1-1;bubble2++){
+                    if(myTechnologies[bubble2].CompareTo(myTechnologies[bubble2+1])<0){
+                        persist=myTechnologies[bubble2];
+                        myTechnologies[bubble2]=myTechnologies[bubble2+1];
+                        myTechnologies[bubble2+1]=persist;
+                    }
+                }
+            }
+        }
+
+        // O(n2)
+        public void demoSelection(){
+            String hold="";
+            for(int select=0;select<myTechnologies.Length;select++){
+                for(int comparison=select+1;comparison<myTechnologies.Length;comparison++){
+                    if(myTechnologies[select].CompareTo(myTechnologies[comparison])>0){
+                        hold=myTechnologies[select];
+                        myTechnologies[select]=myTechnologies[comparison];
+                        myTechnologies[comparison]=hold;
+                    }
+                }
+            }
+        }
+
         public String[] myTechnologies={"Spring","JPA","Jinja","Flask","Mode","Express","React","SOAP","DJango","Oracle","MongoDB"};
+
+        public void getMyTechnologies(){
+            foreach (var item in myTechnologies)
+            {
+                Console.Write(item+", ");
+            }
+            Console.WriteLine();
+        }
 
         public void demoSimpleSort(){
             Array.Sort(myTechnologies);

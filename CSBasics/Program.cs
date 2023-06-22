@@ -1,11 +1,10 @@
 ﻿using ArrayPack;
 Sequence seq=new Sequence();
-//seq.demoCreation();
-//seq.demoRead();
-//seq.demoUpdate();
-// Console.WriteLine(seq.demoLinear("Oracle"));
-// Console.WriteLine(seq.demoLinear("Mongoose"));
-// Console.WriteLine(seq.demoLinear("Angular"));
-// Console.WriteLine(seq.demoLinear("Spring"));
-seq.demoSimpleSort();
-Console.WriteLine(seq.demoBinary("Jinja",seq.myTechnologies.Length));
+
+seq.marshmallow();
+
+// seq.getMyTechnologies();
+// //seq.demoSelection();
+// //seq.demoBubble();
+// seq.demoQuick(0,seq.myTechnologies.Length-1);
+// seq.getMyTechnologies();
