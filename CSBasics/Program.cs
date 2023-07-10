@@ -1,10 +1,6 @@
 ﻿using ArrayPack;
-Sequence seq=new Sequence();
-
-seq.marshmallow();
-
-// seq.getMyTechnologies();
-// //seq.demoSelection();
-// //seq.demoBubble();
-// seq.demoQuick(0,seq.myTechnologies.Length-1);
-// seq.getMyTechnologies();
+Dimension dimension=new Dimension();
+// dimension.insertion();
+// dimension.traverse();
+//dimension.copy();
+dimension.multiBin(3.4);
