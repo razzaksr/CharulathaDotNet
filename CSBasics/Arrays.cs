@@ -99,7 +99,7 @@ namespace ArrayPack{
 
         public int demoBinary(String required,int end,int start=0){
             if(start<end){
-                int midPosition=end-(start+end)/2;
+                int midPosition=start+(end-start)/2;
                 //Console.WriteLine(midPosition);
                 if(myTechnologies[midPosition].CompareTo(required)==0)
                     return midPosition;

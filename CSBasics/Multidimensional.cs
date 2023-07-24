@@ -1,17 +1,40 @@
 namespace ArrayPack{
     class Dimension{
         public double[,] cat={{3.4,8.8,12.8},{14.8,29.5,45.8},{4.1,16.3,27.3},{1.1,78.8,91.7}};
+        public double[,] cats={{8.8,3.4,12.8},{45.8,29.5,14.8},{16.3,4.1,27.3},{1.1,91.7,78.8}};
+
+        public void listCats(){
+            foreach (var item in cats)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        public void bubble(){
+            for(int row=0;row<4;row++){
+                for(int times=0;times<2;times++){
+                    for(int bubble=0;bubble<3-times-1;bubble++){
+                        if(cats[row,bubble]>cats[row,bubble+1]){
+                            cats[row,bubble]*=cats[row,bubble+1];
+                            cats[row,bubble+1]=cats[row,bubble]/cats[row,bubble+1];
+                            cats[row,bubble]/=cats[row,bubble+1];
+                        }
+                    }
+                }
+            }
+        }
+
         public void multiBin(double data,int row=0, int start=0, int end=2){
             if(row<4){
-                if(start<end){
-                    int mid=end-(start+end)/2;
-                    Console.WriteLine(cat[row,mid]+" row "+row+" start "+start+" end "+end);
+                if(start<=end){
+                    int mid=start+(end-start)/2;
+                    //Console.WriteLine(cat[row,mid]+" row "+row+" start "+start+" end "+end);
                     if(cat[row,mid]==data){
                         Console.WriteLine(data+" found @ "+row+" in "+mid);
                         return;
                     }
                     else if(cat[row,mid]>data){
-                        //Console.WriteLine("1st else if");
+                        //Console.WriteLine("1st else if before recursion "+data+" "+row+" "+(mid-1));
                         multiBin(data,row,0,mid-1);
                     }
                     else{
