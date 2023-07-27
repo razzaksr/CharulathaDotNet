@@ -1,20 +1,19 @@
-﻿using Objects;
+﻿// using Overloading;
 
-// Sika sika=new Sika();
-// sika.showSome();
+// CompileTime compile=new CompileTime();
+// String[] myTechs=new String[]{"Spring","DJango","Bootstrap","Node","Express","Hibernate","Flask"};
+// // compile.filter(myTechs);
+// // compile.filter(myTechs,"Go");
+// // compile.filter("Kotlin",myTechs);
+// // int myPoint=-1;
+// // compile.filter(myTechs,"Kotlin",out myPoint);
+// // Console.WriteLine(myPoint);
 
-// Trio trio=new Trio();
-// trio.call();
+// compile.arrange(myTechs);
+// compile.showArray(myTechs);
+// compile.arrange(myTechs,"Node",myTechs.Length-1);
 
 using encap;
-// KYC kyc=new KYC();
-// kyc.accNum=7654345678;
-// kyc.accBal=9834.34;
-// kyc.holder="Razak Mohamed S";
-
-// KYC mine=new KYC(8767898767,12324.5,"Mohamed Rajiya");
-
-
-// Valhella valhella=new Valhella();
-Valhella val=Valhella.getValhella();
-val.list();
+KYC kyc1=new KYC(656789876,9800.3,"Razak");
+kyc1=kyc1<<10000;
+Console.WriteLine(kyc1.ToString());

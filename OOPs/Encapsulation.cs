@@ -28,6 +28,17 @@ namespace encap{
         public Int64 accNum{set;get;}
         public double accBal{set;get;}
         public String holder{set;get;}
+
+        public String ToString(){
+            return holder+" "+accNum+" "+accBal;
+        }
+
+        public static KYC operator<<(KYC kyc,int amount){
+            if(kyc.accBal>=amount){
+                kyc.accBal-=amount;
+            }
+            return kyc;
+        }
     }
 
     class Offline{
