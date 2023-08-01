@@ -1,9 +1,11 @@
 ﻿using Heritance;
 
-DebitCard debitCard=new DebitCard(4590);
-debitCard.accNum=876545678;
-debitCard.accBal=920043.2;
-debitCard.holder="Razak Mohamed";
+//GPay gPay=new GPay();
+//Paytm paytm=new Paytm(34,90);
 
-//debitCard=debitCard>>4000;
---debitCard;
+PhonePe phonePe=new PhonePe(34000);
+phonePe.available();
+phonePe.transaction(5000);
+phonePe.available();
+phonePe.debiting(12000);
+phonePe.available();
