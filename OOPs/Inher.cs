@@ -3,7 +3,7 @@ namespace Heritance{
     // derivedclass:baseclass
     class DebitCard:KYC{
         public int pin{set;get;}
-        public DebitCard(int pin){
+        public DebitCard(int pin, Int64 accNum, double accBal, String holder):base(accNum,accBal,holder){
             this.pin=pin;
         }
 
@@ -27,14 +27,31 @@ namespace Heritance{
             return debitCard;
         }
 
-        public static DebitCard operator -- (DebitCard debitCard){
+        // public static DebitCard operator -- (DebitCard debitCard){
+        //     Console.WriteLine("Enter the pin ");
+        //     int myPin=Convert.ToInt32(Console.ReadLine());
+        //     if(debitCard.isValid(myPin)){
+        //         Console.WriteLine("Enter the amount to debit");
+        //         int amount = Convert.ToInt32(Console.ReadLine());
+        //         if(amount<=debitCard.accBal){
+        //             debitCard.accBal-=amount;
+        //             Console.WriteLine(amount+" withdrawl has success");
+        //         }
+        //         else{
+        //             Console.WriteLine("Invalid transaction amount");
+        //         }
+        //     }
+        //     else{
+        //         Console.WriteLine("unauthoriser");
+        //     }
+        //     return debitCard;
+        // }
+        public void withdraw (int amount){
             Console.WriteLine("Enter the pin ");
             int myPin=Convert.ToInt32(Console.ReadLine());
-            if(debitCard.isValid(myPin)){
-                Console.WriteLine("Enter the amount to debit");
-                int amount = Convert.ToInt32(Console.ReadLine());
-                if(amount<=debitCard.accBal){
-                    debitCard.accBal-=amount;
+            if(isValid(myPin)){
+                if(amount<=accBal){
+                    accBal-=amount;
                     Console.WriteLine(amount+" withdrawl has success");
                 }
                 else{
@@ -44,7 +61,6 @@ namespace Heritance{
             else{
                 Console.WriteLine("unauthoriser");
             }
-            return debitCard;
         }
 
     }

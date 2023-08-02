@@ -29,7 +29,7 @@ namespace encap{
         public double accBal{set;get;}
         public String holder{set;get;}
 
-        public String ToString(){
+        public override String ToString(){
             return holder+" "+accNum+" "+accBal;
         }
 
