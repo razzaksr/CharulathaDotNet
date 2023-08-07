@@ -1,25 +1,35 @@
 ﻿using Heritance;
 
-// Netbanking netbank1=new Netbanking(9812,9876567887,349.4,"Razak Mohamed");
-// Netbanking netbank2=new Netbanking(1453,56787678767,9834.2,"Sabarinathan");
-// netbank1=netbank1-netbank2;
-// Console.WriteLine(netbank1);
-// Console.WriteLine(netbank2);
-// netbank2.withdraw(10000);
-// Console.WriteLine(netbank2);
+Multiple multiple=new Multiple();
+Console.WriteLine(multiple.binSearch("Flutter"));
 
-// BharatPay bharatPay1=new BharatPay(3412,87654567894,813.4,"Razak Mohamed");
-// bharatPay1.payBills();
-// Console.WriteLine(bharatPay1);
-
-// SampleFace sampleFace=new SampleFace();
-
-// MyFaceInter myFaceInter=new MyFaceInter();
-// myFaceInter.modify();
-// myFaceInter.myOwn();
-
-// derivedObject>> derivedProp, baseProp
-// baseObject with derived constructor>> baseProp
-SampleFace sampleFace=new MyFaceInter();
-//sampleFace.myOwn();
-sampleFace.modify();
+// Warehouse warehouse=new Warehouse(10);
+// do{
+//     Console.WriteLine("Push\nPop\nRead\nUpdate\nView\nExit");
+//     string option=Console.ReadLine();
+//     switch(option){
+//         case "push":case "PUSH":
+//             Console.WriteLine("Tell us data to insert");
+//             string data=Console.ReadLine();
+//             warehouse.insert(data);
+//             break;
+//         case "pop":case "POP":
+//             Console.WriteLine("Tell us data to remove");
+//             String obj=Console.ReadLine();
+//             Console.WriteLine(warehouse.deletion((object)obj));
+//             break;
+//         case "Read":case "read":
+//             Console.WriteLine("Tell us index to read ");
+//             int index=Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine(warehouse.readAt(index));
+//             break;
+//         case "Update":case "update":
+//             Console.WriteLine("Tell data and position to update ");
+//             string ob=Console.ReadLine();
+//             int ind=Convert.ToInt32(Console.ReadLine());
+//             warehouse.update((object)ob,ind);
+//             break;
+//         case "view":case "View":warehouse.listAll();break;
+//         default:return;break;
+//     }
+// }while(true);
