@@ -5,11 +5,10 @@
 // Console.WriteLine(backend.getArrSize());
 // backend=Backend.GetBackend(30);
 // Console.WriteLine(backend.getArrSize());
+using Heritance;
 
-// backend.insert(45);
-
-//Component component=new Component();
-Mark mark=new Mark();
-mark.traverse();
-mark.binary("Node",0,mark.arr.Length-1);
-mark.binary("React",0,mark.arr.Length-1);
+Block block=new Block();
+block.upiId="razaksrmd@okaxis";
+block.upiPin=112233;
+block.accBalance=234.4;
+block.show();
