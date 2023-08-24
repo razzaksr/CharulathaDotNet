@@ -1,0 +1,21 @@
+Multithreading:
+
+concurrent process
+
+Resource class/ implementation of ThreadStart>> System.Thread
+
+Main class/ Generate Threads to access the resource class
+
+
+Single resource multiple thread:
+    synchronization:
+        join
+        lock
+Multiple Resource multiple threads:
+    asynchronization
+
+Lifecycle:
+    unstarted>> born
+    ready>> run
+    not runnable>> sleep
+    termination>> abort

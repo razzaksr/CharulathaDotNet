@@ -1,0 +1,15 @@
+D:\Course backups\Dotnet\Charulatha\MultiThreading\bin\Debug\net6.0\MultiThreading.exe
+D:\Course backups\Dotnet\Charulatha\MultiThreading\bin\Debug\net6.0\MultiThreading.deps.json
+D:\Course backups\Dotnet\Charulatha\MultiThreading\bin\Debug\net6.0\MultiThreading.runtimeconfig.json
+D:\Course backups\Dotnet\Charulatha\MultiThreading\bin\Debug\net6.0\MultiThreading.dll
+D:\Course backups\Dotnet\Charulatha\MultiThreading\bin\Debug\net6.0\MultiThreading.pdb
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.csproj.AssemblyReference.cache
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.AssemblyInfoInputs.cache
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.AssemblyInfo.cs
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.csproj.CoreCompileInputs.cache
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.dll
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\refint\MultiThreading.dll
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.pdb
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\MultiThreading.genruntimeconfig.cache
+D:\Course backups\Dotnet\Charulatha\MultiThreading\obj\Debug\net6.0\ref\MultiThreading.dll
