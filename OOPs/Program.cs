@@ -1,14 +1,14 @@
-﻿using Heritance;
-
-// Backend backend=new Backend();
-// Backend backend=Backend.GetBackend();
-// Console.WriteLine(backend.getArrSize());
-// backend=Backend.GetBackend(30);
-// Console.WriteLine(backend.getArrSize());
+﻿using System.Reflection.Metadata;
 using Heritance;
 
-Block block=new Block();
-block.upiId="razaksrmd@okaxis";
-block.upiPin=112233;
-block.accBalance=234.4;
-block.show();
+Console.WriteLine((int)Process.HLD);
+Console.WriteLine((int)Process.Review);
+
+foreach (var item in Enum.GetNames(typeof(Process)))
+{
+    Console.WriteLine(item);
+}
+foreach (var item in Enum.GetValues(typeof(Process)))
+{
+    Console.WriteLine((int)item);
+}
