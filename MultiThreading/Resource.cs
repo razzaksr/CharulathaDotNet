@@ -3,16 +3,21 @@ namespace MyThread{
         //"Jinja","Flutter","React native","Go lang","Vue","Angular","Java","DJango","Flask"
         string[] arr={"DJango","Flask","Jinja","Flutter","React native","Go lang","Vue","Angular","Java"};
         
-        public void clock(int shift){
-            String[] temp=new String[arr.Length];
-            for(int index=0;index<arr.Length;index++){
-                temp[(index+shift)%arr.Length]=arr[index];
-            }
-            foreach (var item in temp)
+        public void clock(){
+            lock (this)
             {
-                Console.Write(item+" ");
+                Console.WriteLine("Welcome "+Thread.CurrentThread.Name);
+                int shift=Convert.ToInt32(Console.ReadLine());
+                String[] temp=new String[arr.Length];
+                for(int index=0;index<arr.Length;index++){
+                    temp[(index+shift)%arr.Length]=arr[index];
+                }
+                foreach (var item in temp)
+                {
+                    Console.Write(item+" ");
+                }
+                Console.WriteLine();
             }
-            Console.WriteLine();
         }
         
         public void display(){
