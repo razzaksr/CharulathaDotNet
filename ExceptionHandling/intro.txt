@@ -1,0 +1,22 @@
+Exception:
+    user input or data which fails the condition/ requirement which interrupt executing 
+    the next line/ leads program termination abnormally
+    
+    Can be handled
+
+Error:
+    Compile time: syntax, logical 
+    Run time: stack overflow, power shutdown, ....
+
+Purpose of handling the exception:
+    1. Let the program to complete
+    2. give another chance to correct runtime exceptions
+
+Exception handle:
+    try{
+        // probable statement to rasie exceptions
+    }
+    catch(ExceptionName object){
+        // another chance
+    }
+
