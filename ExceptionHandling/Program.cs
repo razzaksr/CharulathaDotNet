@@ -1,37 +1,17 @@
 ﻿using Handle;
-Finite finite=new Finite();
-//finite.limited();
-finite.nested();
 
-
-// currency conversion
-// try{
-//     Console.WriteLine("Enter the dollar ");
-//     int dollar=Convert.ToInt32(Console.ReadLine());
-//     Console.WriteLine("$"+dollar+"'s respective indian rupee is "+(dollar*82.77));
-// }
-// catch(FormatException format){
-//     //Console.WriteLine(format.StackTrace);
-//     Console.WriteLine("Enter the Number to convert");
-//     int dollar=Convert.ToInt32(Console.ReadLine());
-//     Console.WriteLine("$"+dollar+"'s respective indian rupee is "+(dollar*82.77));
-// }
-// finally{
-//     Console.WriteLine("Enter the number ");
-//     int dollar=Convert.ToInt32(Console.ReadLine());
-//     Console.WriteLine("$"+dollar+"'s respective indian rupee is "+(dollar*82.77));
-// }
-
-// String alpha=null;
+DemostrateCustom.authenticate("charu","sona");
 
 // try{
-//     Console.WriteLine(alpha.Length);
-//     Console.WriteLine("Objective done");
+//     Navigate.perform();
 // }
-// catch(NullReferenceException nullReferenceException){
-//     Console.WriteLine(nullReferenceException);
-//     alpha="";
-//     Console.WriteLine(alpha.Length);
-//     Console.WriteLine("Objective done");
+// catch(IndexOutOfRangeException inExce){
+//     Console.WriteLine(inExce+" at main context");
+//     Console.WriteLine("Choose product by position which should be lesser than "+Navigate.arr.Length);
+//     Navigate.index=Convert.ToInt32(Console.ReadLine());
+//     Console.WriteLine("Enter the feasible month to repay "+Navigate.arr[Navigate.index]);
+//     Navigate.installment=Convert.ToInt32(Console.ReadLine());
+//     int EMI=Navigate.arr[Navigate.index]/Navigate.installment;
+//     Console.WriteLine(EMI+" EMI of product "+Navigate.arr[Navigate.index]
+//     +" for month of "+Navigate.installment);
 // }
-// Console.WriteLine("End of the program");
