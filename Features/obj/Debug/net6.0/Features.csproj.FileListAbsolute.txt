@@ -1,0 +1,15 @@
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.csproj.AssemblyReference.cache
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.AssemblyInfoInputs.cache
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.AssemblyInfo.cs
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.csproj.CoreCompileInputs.cache
+D:\Course backups\Dotnet\Charulatha\Features\bin\Debug\net6.0\Features.exe
+D:\Course backups\Dotnet\Charulatha\Features\bin\Debug\net6.0\Features.deps.json
+D:\Course backups\Dotnet\Charulatha\Features\bin\Debug\net6.0\Features.runtimeconfig.json
+D:\Course backups\Dotnet\Charulatha\Features\bin\Debug\net6.0\Features.dll
+D:\Course backups\Dotnet\Charulatha\Features\bin\Debug\net6.0\Features.pdb
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.dll
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\refint\Features.dll
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.pdb
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\Features.genruntimeconfig.cache
+D:\Course backups\Dotnet\Charulatha\Features\obj\Debug\net6.0\ref\Features.dll
