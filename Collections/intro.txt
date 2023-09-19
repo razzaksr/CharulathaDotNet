@@ -1,0 +1,13 @@
+Collections:
+
+dynamic storage
+objects
+operations done by in built methods
+
+Storage class's:
+ArrayList
+Hashtable
+SortedList
+Stack
+Queue
+BitArray
