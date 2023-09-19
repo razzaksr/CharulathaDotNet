@@ -1,0 +1,12 @@
+File Operations: Permenant Data logic
+
+    File>> Name, Location
+    FileMode>> read, wite, append
+
+Streams:
+    FileStream
+    StreamWriter, StreamReader
+    TextWriter, TextReader
+    BinaryWriter, BinaryReader
+    
+    BinaryFormatter(Serialize,Deserialize)
