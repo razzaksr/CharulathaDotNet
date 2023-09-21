@@ -1,0 +1,15 @@
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.csproj.AssemblyReference.cache
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfoInputs.cache
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfo.cs
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.csproj.CoreCompileInputs.cache
+D:\Course backups\Dotnet\Charulatha\MyApp\bin\Debug\net6.0\MyApp.exe
+D:\Course backups\Dotnet\Charulatha\MyApp\bin\Debug\net6.0\MyApp.deps.json
+D:\Course backups\Dotnet\Charulatha\MyApp\bin\Debug\net6.0\MyApp.runtimeconfig.json
+D:\Course backups\Dotnet\Charulatha\MyApp\bin\Debug\net6.0\MyApp.dll
+D:\Course backups\Dotnet\Charulatha\MyApp\bin\Debug\net6.0\MyApp.pdb
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.dll
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\refint\MyApp.dll
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.pdb
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\MyApp.genruntimeconfig.cache
+D:\Course backups\Dotnet\Charulatha\MyApp\obj\Debug\net6.0\ref\MyApp.dll

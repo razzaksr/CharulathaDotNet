@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pjxjOo/aXUKd+ygCzYgdvXQ0xy29CrqsSEeHF6IYeGDy3dKumA4XtrcFZikZjbr9SHikKI+RV76MjnK9Y3PTfA==",
+  "success": true,
+  "projectFilePath": "D:\\Course backups\\Dotnet\\Charulatha\\MyApp\\MyApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.9\\microsoft.netcore.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.9\\microsoft.aspnetcore.app.runtime.win-x64.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
